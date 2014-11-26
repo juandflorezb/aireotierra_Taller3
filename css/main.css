@@ -1,0 +1,75 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+[draggable=true] { 
+    cursor : move; 
+}
+
+h1{
+	font-family: 'Arial Black', Gadget, sans-serif;
+	font-size: 64px;
+}
+
+.row p{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 30px;
+	margin-top: 18px;
+}
+
+body{
+	background-color: grey;
+	color: white;
+}
+
+#selector{
+ background-color: white;
+ color: black;
+ font-family: 'PT Sans Narrow', sans-serif;
+ font-size: 30px;
+}
+
+footer{
+ text-align: center;
+ margin-top: 15px;
+}
+
+.sitioimg {
+ width: 75px;
+}
+
+.container{
+	text-align: center;
+}
+
+.container img{
+	margin-top: 10px;
+	}
+
+.map{
+	height: 400px;
+	margin-bottom: 3%;
+	margin-top: -50px;
+	color: black;
+}
+
+#map-canvas { 
+	width: 100%;
+	height: 100%;
+}
+
+li{list-style: none;}
+ul{display: inline-block;}
+
+#droparea{
+ width: 357px;
+ height: 293px;
+ background-color: transparent;
+}
+
+#dropimage{
+	visibility: hidden;
+	width: 0px;
+}
